@@ -1,8 +1,8 @@
 class Yolk < Formula
   desc "Keep your Mac awake and Slack active while AI agents run"
   homepage "https://github.com/coreyervin/yolk"
-  url "https://github.com/coreyervin/yolk/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "3f3394b08e84cc93465c04b15458519e8788ff123ef7d0046e4cc4fad5f808fd"
+  url "https://github.com/coreyervin/yolk/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "715c866553d7a773609341c79672955ae5d10e83c5f976450a36cadba78ef4f1"
   license "MIT"
   head "https://github.com/coreyervin/yolk.git", branch: "main"
 
