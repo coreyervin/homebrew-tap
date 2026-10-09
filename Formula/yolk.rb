@@ -6,9 +6,9 @@ class Yolk < Formula
   license "MIT"
   head "https://github.com/coreyervin/yolk.git", branch: "main"
 
+  depends_on xcode: ["15.0", :build]
   # MainActor.assumeIsolated in the session's timer handlers needs macOS 14.
   depends_on macos: :sonoma
-  depends_on xcode: ["15.0", :build]
 
   def install
     # --disable-sandbox: SwiftPM writes its build scratch space, which
