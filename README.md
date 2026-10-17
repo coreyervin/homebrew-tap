@@ -1,12 +1,12 @@
 # coreyervin/homebrew-tap
 
-Homebrew formulae for my tools.
+Homebrew casks for my tools.
 
 ```sh
 brew tap coreyervin/tap
 ```
 
-## Formulae
+## Casks
 
 ### yolk
 
@@ -14,11 +14,11 @@ Keeps your Mac awake and Slack active while AI agents run, so a long loop
 doesn't die when the machine falls asleep.
 
 ```sh
-brew install coreyervin/tap/yolk
+brew install --cask coreyervin/tap/yolk
 ```
 
-Builds the CLI from source — it needs Xcode and macOS 14+. The menu bar app
-isn't distributed here yet; it is not notarized, so a downloaded build would
-be blocked by Gatekeeper. Build it from a clone with `make app`.
+Installs the signed, notarized menu bar app and links the `yolk` CLI it embeds
+onto your `PATH`. Needs macOS 14+. For only the CLI, build it from a clone with
+`make install`.
 
 See [coreyervin/yolk](https://github.com/coreyervin/yolk).
