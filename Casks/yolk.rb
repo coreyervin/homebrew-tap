@@ -1,6 +1,6 @@
 cask "yolk" do
-  version "1.0.1"
-  sha256 "19f3c9d6083dbcdcafa4cc753fab57dcc5d3d56d1c196334f9f5421ce973572c"
+  version "1.1.0"
+  sha256 "44d302d9d5631c3efc8581a7386600468ed8b35a904cca53f51a69f09a4e3f9b"
 
   url "https://github.com/coreyervin/yolk/releases/download/v#{version}/Yolk-#{version}.dmg"
   name "Yolk"
